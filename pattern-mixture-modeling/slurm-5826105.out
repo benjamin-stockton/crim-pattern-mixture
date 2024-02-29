@@ -1,0 +1,91 @@
+Loading r/4.3.2
+  Loading requirement: slurm/slurm/22.05.9 pre-module post-module gcc/11.3.0
+Warning message:
+Number of logged events: 7 
+                        JPR_ID                         JP_MIN 
+                            ""                           "rf" 
+                    JP_MIN_MON                         DOSAGE 
+             "~I(JP_MIN / 30)"                           "rf" 
+                       DOSAGEQ                            OGS 
+                          "rf"                             "" 
+                          OGSQ                         RECMIN 
+                            ""                           "rf" 
+                         TRIAL                           YEAR 
+                            ""                             "" 
+                        COUNTY                          INCAR 
+                            "" "~I(ifelse(JP_MIN > 0, 1, 0))" 
+                           SEX                       OFF_RACE 
+                            ""                           "rf" 
+                        PRVREC                          CRIME 
+                            ""                             "" 
+                    COUNTYTYPE                     COUNTY_OGS 
+                            ""                             "" 
+                        NCASES                         PCASES 
+                            ""                             "" 
+           JPR_ID JP_MIN JP_MIN_MON DOSAGE DOSAGEQ OGS OGSQ RECMIN TRIAL YEAR
+JPR_ID          0      1          0      1       1   1    1      1     1    1
+JP_MIN          0      0          0      1       1   1    1      1     1    1
+JP_MIN_MON      0      0          0      0       0   0    0      0     0    0
+DOSAGE          0      1          0      0       1   1    1      1     1    1
+DOSAGEQ         0      1          0      1       0   1    1      1     1    1
+OGS             0      1          0      1       1   0    1      1     1    1
+OGSQ            0      1          0      1       1   1    0      1     1    1
+RECMIN          0      1          0      1       1   1    1      0     1    1
+TRIAL           0      1          0      1       1   1    1      1     0    1
+YEAR            0      1          0      1       1   1    1      1     1    0
+COUNTY          0      1          0      1       1   1    1      1     1    1
+INCAR           0      1          0      1       1   1    1      1     1    1
+SEX             0      1          0      1       1   1    1      1     1    1
+OFF_RACE        0      1          0      1       1   1    1      1     1    1
+PRVREC          0      0          0      0       0   0    0      0     0    0
+CRIME           0      1          0      1       1   1    1      1     1    1
+COUNTYTYPE      0      1          0      1       1   1    1      1     1    1
+COUNTY_OGS      0      1          0      1       1   1    1      1     1    1
+NCASES          0      1          0      1       1   1    1      1     1    1
+PCASES          0      1          0      1       1   1    1      1     1    1
+           COUNTY INCAR SEX OFF_RACE PRVREC CRIME COUNTYTYPE COUNTY_OGS NCASES
+JPR_ID          0     1   0        1      0     0          0          1      1
+JP_MIN          0     1   0        1      0     0          0          1      1
+JP_MIN_MON      0     0   0        0      0     0          0          0      0
+DOSAGE          0     1   0        1      0     0          0          1      1
+DOSAGEQ         0     1   0        1      0     0          0          1      1
+OGS             0     1   0        1      0     0          0          1      1
+OGSQ            0     1   0        1      0     0          0          1      1
+RECMIN          0     1   0        1      0     0          0          1      1
+TRIAL           0     1   0        1      0     0          0          1      1
+YEAR            0     1   0        1      0     0          0          1      1
+COUNTY          0     1   0        1      0     0          0          1      1
+INCAR           0     0   0        1      0     0          0          1      1
+SEX             0     1   0        1      0     0          0          1      1
+OFF_RACE        0     1   0        0      0     0          0          1      1
+PRVREC          0     0   0        0      0     0          0          0      0
+CRIME           0     1   0        1      0     0          0          1      1
+COUNTYTYPE      0     1   0        1      0     0          0          1      1
+COUNTY_OGS      0     1   0        1      0     0          0          0      1
+NCASES          0     1   0        1      0     0          0          1      0
+PCASES          0     1   0        1      0     0          0          1      1
+           PCASES
+JPR_ID          0
+JP_MIN          0
+JP_MIN_MON      0
+DOSAGE          0
+DOSAGEQ         0
+OGS             0
+OGSQ            0
+RECMIN          0
+TRIAL           0
+YEAR            0
+COUNTY          0
+INCAR           0
+SEX             0
+OFF_RACE        0
+PRVREC          0
+CRIME           0
+COUNTYTYPE      0
+COUNTY_OGS      0
+NCASES          0
+PCASES          0
+
+real	21m36.034s
+user	2m4.613s
+sys	0m56.413s
